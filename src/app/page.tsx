@@ -1,7 +1,11 @@
+import { HeaderPage } from "@/components/Header";
+import { HomePage } from "@/components/Home";
+
 export default function Home() {
   return (
-    <div>
-      <h1>hello nike</h1>
+    <div className="w-screen h-screen">
+      <HeaderPage />
+      <HomePage />
     </div>
   );
 }
