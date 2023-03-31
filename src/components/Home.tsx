@@ -1,8 +1,8 @@
 export function HomePage() {
   return (
-    <div className="w-screen bg-home h-screen bg-cover bg-no-repeat">
+    <div className="w-screen bg-black">
       <div
-        className="max-w-[1540px] h-screen mx-auto flex flex-row
+        className="max-w-[1540px] h-screen mx-auto flex flex-row  bg-home  bg-cover bg-no-repeat
       "
       >
         <div className="text-white mt-[10rem] justify-start w-[30rem]">
