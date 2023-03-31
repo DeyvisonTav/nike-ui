@@ -24,6 +24,7 @@ export function HomePage() {
             >
               produtos
             </button>
+            {/* fix new button */}
           </div>
         </div>
         <Image src={"/liquid.png"} width={1170} height={1167} alt="" />
@@ -51,7 +52,7 @@ export function HomePage() {
           alt=""
         />
         <Image
-          className="absolute left-0 bottom-0 ml-[4rem] "
+          className="absolute left-0 bottom-0 ml-[4rem]"
           src={"/liquid2.png"}
           width={1000}
           height={1000}
