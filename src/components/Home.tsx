@@ -6,16 +6,18 @@ export function HomePage() {
         className="max-w-[1540px] h-screen mx-auto flex flex-row
          justify-between"
       >
-        <div className="text-white mt-[12rem]">
+        <div className="text-white mt-[8rem]">
           <h1 className="text-9xl">Nike</h1>
           <p className="text-2xl mt-[5rem]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, alias
-            est debitis ab distinctio non voluptas facere laborum nemo a,
-            voluptatem, laboriosam at culpa tenetur magni quos rerum
-            necessitatibus tempore.
+            Bem-vindo à loja de sapatos Nike, o lugar perfeito para encontrar o
+            par de sapatos perfeito para suas necessidades. Nós nos orgulhamos
+            de oferecer uma ampla variedade de sapatos da mais alta qualidade
+            para homens, mulheres e crianças. Seja você um corredor experiente,
+            um atleta amador ou apenas um amante de sapatos, temos o que você
+            precisa.  
           </p>
           <div className="mt-[5rem] relative z-20">
-            <button 
+            <button
               className="px-[12rem] py-4 bg-white text-black font-bold
              rounded-[12px] hover:bg-transparent hover:border-white hover:border
             hover:text-white transition-colors "
@@ -55,7 +57,7 @@ export function HomePage() {
           height={1000}
           alt=""
         />
-        <div className="absolute right-0 pr-[12rem]">
+        <div className="absolute right-0 pr-[12rem] mt-16">
           <Image src={"/sapato.png"} width={950} height={675} alt="sapato" />
         </div>
       </div>
