@@ -8,7 +8,7 @@ export function HomePage() {
   return (
     <div className="w-screen bg-home ">
       <div
-        className={`max-w-[${widthState}] h-screen mx-auto flex flex-row  
+        className={`${widthState} h-screen mx-auto flex flex-row  
          bg-cover bg-no-repeat`}
       >
         <div className="text-white mt-[14rem] justify-start w-[35rem]">

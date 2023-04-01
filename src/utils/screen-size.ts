@@ -24,7 +24,7 @@ export function useScreenSize(windowObj: WindowObj = window): {
     };
   }, [handleResize, windowObj]);
 
-  const widthState = width > 1600 ? "1540px" : "1140px";
+  const widthState = width > 1600 ? "max-w-[1540px]" : "max-w-[1140px]";
 
   return { widthState };
 }
