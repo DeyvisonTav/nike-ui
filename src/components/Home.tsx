@@ -1,19 +1,25 @@
+"use client";
+import { useScreenSize } from "@/utils/screen-size";
+
 export function HomePage() {
+  const { widthState } = useScreenSize();
+
   return (
     <div className="w-screen bg-black">
       <div
-        className="max-w-[1540px] h-screen mx-auto flex flex-row  bg-home  bg-cover bg-no-repeat
-      "
+        className={`max-w-[${widthState}] h-screen mx-auto flex flex-row  bg-home  bg-cover bg-no-repeat
+        `}
       >
-        <div className="text-white mt-[10rem] justify-start w-[30rem]">
-          <h1 className="text-9xl">Nike</h1>
+        <div className="text-white mt-[10rem] justify-start w-[35rem]">
+          <h1 className="text-8xl">Nike Shop</h1>
           <p className="text-2xl mt-[5rem]">
-            Bem-vindo à loja de sapatos Nike, o lugar perfeito para encontrar o
-            par de sapatos perfeito para suas necessidades. Nós nos orgulhamos
-            de oferecer uma ampla variedade de sapatos da mais alta qualidade
-            para homens, mulheres e crianças. Seja você um corredor experiente,
-            um atleta amador ou apenas um amante de sapatos, temos o que você
-            precisa.
+            Descubra o par perfeito na loja de sapatos Nike! Com uma variedade
+            incomparável de sapatos de alta qualidade, para homens, mulheres e
+            crianças, você encontrará a escolha ideal para suas necessidades e
+            desejos. Nós unimos estilo e funcionalidade em nossos sapatos,
+            garantindo conforto e durabilidade em todas as atividades.
+            Experimente o que há de melhor em sapatos e escolha o seu par na
+            nossa loja hoje mesmo!
           </p>
           <div className="mt-[5rem] relative z-20">
             <button

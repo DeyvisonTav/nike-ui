@@ -1,11 +1,15 @@
-import "./styles.css"
+"use client";
+import "./styles.css";
 
 import { BiShoppingBag } from "react-icons/bi";
-
+import { useScreenSize } from "@/utils/screen-size";
 export function HeaderPage() {
+  const { widthState } = useScreenSize();
   return (
-    <div className="w-full bg-black h-[75px] max-w-full text-[#d6d6d6] overflow-x-hiddenow-x: text-xl fixed z-20">
-      <div className="max-w-[1540px] h-full mx-auto flex items-center justify-between">
+    <div className="w-full bg-black h-[80px] max-w-full text-[#d6d6d6] overflow-x-hiddenow-x: text-xl fixed z-20">
+      <div
+        className={`max-w-[${widthState}] h-full mx-auto flex items-center justify-between`}
+      >
         <a href="#">
           <img src="/NikeLogo.png" alt="" />
         </a>
