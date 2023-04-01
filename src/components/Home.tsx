@@ -3,16 +3,17 @@ import { useScreenSize } from "@/utils/screen-size";
 
 export function HomePage() {
   const { widthState } = useScreenSize();
+  console.log(widthState);
 
   return (
-    <div className="w-screen bg-black">
+    <div className="w-screen bg-home ">
       <div
-        className={`max-w-[${widthState}] h-screen mx-auto flex flex-row  bg-home  bg-cover bg-no-repeat
-        `}
+        className={`max-w-[${widthState}] h-screen mx-auto flex flex-row  
+         bg-cover bg-no-repeat`}
       >
-        <div className="text-white mt-[10rem] justify-start w-[35rem]">
+        <div className="text-white mt-[14rem] justify-start w-[35rem]">
           <h1 className="text-8xl">Nike Shop</h1>
-          <p className="text-2xl mt-[5rem]">
+          <p className="text-2xl mt-[6rem]">
             Descubra o par perfeito na loja de sapatos Nike! Com uma variedade
             incomparável de sapatos de alta qualidade, para homens, mulheres e
             crianças, você encontrará a escolha ideal para suas necessidades e
@@ -21,7 +22,7 @@ export function HomePage() {
             Experimente o que há de melhor em sapatos e escolha o seu par na
             nossa loja hoje mesmo!
           </p>
-          <div className="mt-[5rem] relative z-20">
+          <div className="mt-[6rem] relative z-20">
             <button
               className="px-[12rem] py-4 bg-white text-black font-bold
              rounded-[12px] hover:bg-transparent hover:border-white hover:border
