@@ -1,11 +1,13 @@
-import { HeaderPage } from "@/components/header/Header";
+import { AboutUs } from "@/components/AboutUs";
 import { HomePage } from "@/components/Home";
+import { HeaderPage } from "@/components/header/Header";
 
 export default function Home() {
   return (
-    <div className="w-screen ">
+    <div>
       <HeaderPage />
       <HomePage />
+      <AboutUs />
     </div>
   );
 }

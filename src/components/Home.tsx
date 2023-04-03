@@ -1,15 +1,16 @@
 "use client";
 import { useScreenSize } from "@/utils/screen-size";
+import { AboutUs } from "./AboutUs";
 
 export function HomePage() {
   const { widthState } = useScreenSize();
   console.log(widthState);
 
   return (
-    <div className="w-screen bg-home ">
+    <div className="w-full bg-home bg-cover bg-no-repeat">
       <div
         className={`${widthState} h-screen mx-auto flex flex-row  
-         bg-cover bg-no-repeat`}
+         `}
       >
         <div className="text-white mt-[14rem] justify-start w-[35rem]">
           <h1 className="text-8xl">Nike Shop</h1>
