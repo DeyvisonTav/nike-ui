@@ -23,7 +23,7 @@ export function HomePage() {
             Experimente o que há de melhor em sapatos e escolha o seu par na
             nossa loja hoje mesmo!
           </p>
-          <div className="mt-[6rem] relative z-20">
+          <div className="mt-[6rem] z-20">
             <button
               className="px-[12rem] py-4 bg-white text-black font-bold
              rounded-[12px] hover:bg-transparent hover:border-white hover:border
