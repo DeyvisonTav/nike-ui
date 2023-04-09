@@ -29,7 +29,7 @@ export function HomePage() {
              rounded-[12px] hover:bg-transparent hover:border-white hover:border
             hover:text-white transition-colors "
             >
-              produtos
+              Ver Produtos
             </button>
             {/* fix new button */}
           </div>
