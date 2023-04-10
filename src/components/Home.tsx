@@ -1,5 +1,5 @@
 "use client";
-import { useScreenSize } from "@/utils/screen-size";
+import { useScreenSize } from "@/components/utils/screen-size";
 import { AboutUs } from "./AboutUs";
 
 export function HomePage() {

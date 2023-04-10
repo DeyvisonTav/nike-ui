@@ -2,7 +2,8 @@
 import "./styles.css";
 
 import { BiShoppingBag } from "react-icons/bi";
-import { useScreenSize } from "@/utils/screen-size";
+import { useScreenSize } from "@/components/utils/screen-size";
+import Link from "next/link";
 export function HeaderPage() {
   const { widthState } = useScreenSize();
   return (
@@ -24,13 +25,16 @@ export function HeaderPage() {
           <a href="#" className="hover:text-white hover:duration-500 nav">
             Avaliações
           </a>
-          <a href="#" className="hover:text-white hover:duration-500 nav">
+          <Link
+            href="/Products"
+            className="hover:text-white hover:duration-500 nav"
+          >
             Produtos
-          </a>
+          </Link>
         </div>
-        <div>
+        <Link href="/Cart">
           <BiShoppingBag className="w-8 h-8 cursor-pointer hover:text-white hover:duration-500" />
-        </div>
+        </Link>
       </div>
     </div>
   );
