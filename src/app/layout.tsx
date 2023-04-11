@@ -1,3 +1,4 @@
+import { HeaderPage } from "@/components/header/Header";
 import "./globals.css";
 
 
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body>
+        <HeaderPage/>
+        {children}</body>
     </html>
   );
 }

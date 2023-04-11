@@ -11,20 +11,20 @@ export function HeaderPage() {
       <div
         className={`${widthState} h-full mx-auto flex items-center justify-between`}
       >
-        <a href="#">
+        <Link href="/">
           <img src="/NikeLogo.png" alt="" />
-        </a>
+        </Link>
 
         <div className="flex items-center gap-[40px]">
-          <a className="hover:text-white duration-500 nav" href="#">
+          <Link className="hover:text-white duration-500 nav" href="/">
             Home
-          </a>
-          <a className="hover:text-white hover:duration-500 nav" href="#">
+          </Link>
+          <Link className="hover:text-white hover:duration-500 nav" href="/">
             Sobre-nós
-          </a>
-          <a href="#" className="hover:text-white hover:duration-500 nav">
+          </Link>
+          <Link href="/" className="hover:text-white hover:duration-500 nav">
             Avaliações
-          </a>
+          </Link>
           <Link
             href="/Products"
             className="hover:text-white hover:duration-500 nav"
