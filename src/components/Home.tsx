@@ -1,6 +1,5 @@
 "use client";
 import { useScreenSize } from "@/components/utils/screen-size";
-import { AboutUs } from "./AboutUs";
 
 export function HomePage() {
   const { widthState } = useScreenSize();
